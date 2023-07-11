@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Find your book</title>
+    <meta property="og:title" content="encourage reading">
+    <meta property="og:type" content="webside">
+    <meta property="og:description" content="app to find books">
+    <meta property="og:img" content="assets/img/img.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./img/icon.jpg">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div class="titlebox"> <!--title-->
+        <h1 class="title">Find your book</h1>
+        <h2 class="title">Reading makes you feel good</h2>
+    </div>
+    <form action="javascript:void(0);" onsubmit="onclickSearch()"> <!--enter key-->
+        <div class="text"> <!--textbox-->
+            <input id="barra" class="textbox" type="text" placeholder="Type a category..">
+            <input class="button" type="button" value="Search" onclick="onclickSearch()">
+        </div>
+    </form>
+    <div id="target"></div> <!--book list -->
+    <div id="des"></div> <!-- book description -->
+
+    <div class="footer">
+        <footer>
+            &copy; Livia Luciani for Start2Impact
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

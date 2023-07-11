@@ -1,0 +1,80 @@
+body {
+    background-image: url(../img/img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*title page*/
+.titlebox {
+    text-align: center;
+    background-color: coral;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: solid 2px green;
+}
+
+.title {
+    color: green;
+}
+
+/*textbox*/
+.text {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.textbox {
+    width: 500px;
+    height: 30px;
+    border-radius: 15px 15px 15px 15px;
+    border: solid 2px green;
+}
+
+.button {
+    border-radius: 5px 5px 5px 5px;
+    color: coral;
+    background-color: green;
+    width: 80px;
+    height: 30px;
+    border: solid 2px coral;
+}
+
+/* book list */
+#lista {
+    border-collapse: collapse;
+    color: white;
+    background: linear-gradient(green, rgb(147, 248, 147));
+    border: solid 2px coral;
+}
+
+#lista tr:hover {
+    background-color: coral;
+    cursor: pointer;
+}
+
+#target {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/*book description*/
+#des {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+    background: linear-gradient(green, rgb(147, 248, 147));
+    visibility: hidden;
+    border: solid 2px coral;
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 100px;
+    color: white;
+}
