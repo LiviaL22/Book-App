@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
 }
 
+
 /*title page*/
 .titlebox {
     text-align: center;
@@ -12,6 +13,7 @@ body {
     margin-left: 300px;
     margin-right: 300px;
     border: solid 2px green;
+
 }
 
 .title {
@@ -30,6 +32,7 @@ body {
     height: 30px;
     border-radius: 15px 15px 15px 15px;
     border: solid 2px green;
+
 }
 
 .button {
