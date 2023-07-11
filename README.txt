@@ -15,7 +15,9 @@ WEBHOST:
 • NETLIFY
 
 Qui il link del progetto: https://livial22-book-app.netlify.app/
-ENGLISH
+
+/ENGLISH/
+
 HI! I'm Livia and I'm studying to become a web developer.
 This project consists in encouraging the reading of books through the Open Library external service (https://openlibrary.org/developers/api). I created a search engine as home page, with textbox (google style), where when you type a category (if you don't type the category and simply click "Serch" or enter, a window will appear with the words "find your category reading makes you free") click "Search" or press enter, a small table will appear with a list of authors and books. Selecting one of these the description of the book will appear.
 I used :
