@@ -10,6 +10,14 @@ body {
         background: url(../img/img.jpg) no-repeat center center fixed; 
         background-size: cover;
     }
+      .titlebox .text {
+        text-align: center;
+      }
+      #lista #target #des {
+        display: flex;
+        justify-content: center;
+
+      }
 }
 
 /*title page*/
