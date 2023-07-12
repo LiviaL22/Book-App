@@ -7,17 +7,19 @@ body {
 /*mobile*/
 @media (min-width: 600px) {
     body {
-        background: url(../img/img.jpg) no-repeat center center fixed; 
+        background: url(../img/img.jpg) no-repeat center center fixed;
         background-size: cover;
     }
-      .titlebox .text {
+
+    .titlebox .text {
         text-align: center;
-      }
-      #lista #target #des {
+    }
+
+    #lista #target #des {
         display: flex;
         justify-content: center;
 
-      }
+    }
 }
 
 /*title page*/
