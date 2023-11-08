@@ -91,15 +91,9 @@ body {
 
 /*footer*/
 .footer {
-  display: flex;
-  justify-content: center;
-  padding-top: 100px;
-  color: white;
-}
-
-.copy {
-  position: "absolute";
+  position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
+  color: white;
 }
